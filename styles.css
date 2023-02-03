@@ -23,9 +23,10 @@ h1,p {
     font-family: Arial, Helvetica, sans-serif;
 }
 img {
-    width: 50px;
-    height: 50px;
+    width: 120px;
+    height: 160px;
     margin: 10 px;
+    border-color: yellow;
 }
 
 form {
@@ -57,3 +58,27 @@ form {
   width: 50%;
   min-height: 2em;
 }
+  td, th {
+  padding: 10px;
+}
+  td {
+    color:blue
+
+}
+  td, th {
+    background-color:aqua
+  }
+  table {
+    border: 5px solid;
+    border-color: red
+  }
+  hr {
+    height: 1px;
+    background-color: blue;
+    border: none;
+
+  }
+  li {
+    margin-left: 5%;
+    padding: 4px;
+  }
